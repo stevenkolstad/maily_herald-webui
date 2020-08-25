@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.test_files   = `git ls-files -- {spec,features}/**/`.split("\n")
 
 	s.add_dependency 'maily_herald', "~>0.9.2"
-	s.add_dependency "smart_listing", "~>1.1.0"
+	s.add_dependency "smart_listing", "~>1.2.3"
 	s.add_dependency "haml"
 	s.add_dependency "coffee-rails"
 	s.add_dependency 'sass-rails'
